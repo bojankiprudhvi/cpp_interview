@@ -1,0 +1,37 @@
+OSI stands for Open Systems Interconnection
+
+The OSI model consists of seven abstraction layers arranged in a top-down order:
+
+7.Physical Layer //low lwval binary messgde
+6.Data Link Layer //recievin gthe message in frmaes and sending it to network layer properly
+5.Network Layer //for trasfering the date over network
+4.Transport Layer
+3.Session Layer
+2.Presentation Layer
+1.Application Layer
+
+
+tcp/ip model
+
+socket porgramming 
+1) Socket Creation
+int sockfd = socket(domain, type, protocol)
+sockfd: socket descriptor, an integer (like a file handle)
+domain = AF_LOCAL for lcoal network,AF_INET for differnt networkt
+type = vcommanication type 
+tcp SOCK_STREAM
+udp SOCK_DGRAM
+protocal :  0   This is the same number that appears on the protocol field in the IP header of a packet.
+
+2. Setsockopt
+This helps in manipulating options for the socket referred by the file descriptor sockfd. This is completely optional, but it helps in reuse of address and port. Prevents error such as: “address already in use”.
+
+int setsockopt(int sockfd, int level, int optname,  const void *optval, socklen_t optlen);
+3. Bind
+int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
+After the creation of the socket, the bind function binds the socket to the address and port number specified in addr(custom data structure). In the example code, we bind the server to the localhost, hence we use INADDR_ANY to specify the IP address.
+4) listen
+int listen(int sockfd, int backlog);
+
+5. Accept
+int new_socket= accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
