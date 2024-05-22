@@ -61,7 +61,7 @@ smart poiner->
 dealocation is tacken care my itself
 
 1)uniqu poiner(std::unique_ptr<data type>)- only one poineter can to poinet to that memory location
-2)shared poineter (shared_ptr<data type>)- two or more pointer can share the same memory
+2)shared poineter (shared_ptr<data typ	e>)- two or more pointer can share the same memory
 3)weak_ptr will not hold the refernce 
 
 
@@ -147,7 +147,29 @@ finding memory leak with out using any tools( top command)
 top command with parametres
 register in c
 
-	
+
+
+interview 3 (dover)
+copy constructor wrtign 
+relitins betwween classs( conjection and all)
+thread in c++
+smart pointers unique pointers sharing 
+
  
- 
- 
+ Association, Composition and Aggregation in C++
+
+association one class depends on other calls object 
+
+composition - one classs object is creacteed inside the ortehr class. one class life time depends on otehr class
+aggregation - same as composition but both or independent
+lambda fucntionn 
+
+
+auto F = [](int x){
+# statements
+
+};
+
+
+ thread in c++
+std::thread thread_obj(&Base::foo, &b, params);
