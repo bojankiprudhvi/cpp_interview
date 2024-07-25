@@ -34,6 +34,21 @@ templets
 
 
 
+
+
+class diagram
+design pattern 
+stl concepts
+project knowledge
+oops concepts 
+abstraction and pure abstraction
+virtual concepts
+friend
+operator and function over loading and over riding
+
+
+
+
 c++ interview
 
 ipc (inter process communication)
@@ -173,3 +188,27 @@ auto F = [](int x){
 
  thread in c++
 std::thread thread_obj(&Base::foo, &b, params);
+
+
+interview(4) xoirinet
+linked list delete node
+danglign pointer
+memory structure(stack memory heap mempry for global and local vareibale)
+why virtual 
+virtual Inheritance
+volatile
+        A virtual int A()
+      /  \
+   A()B  C A()
+      \ /
+        D
+ipc communication
+
+
+ust global
+about project
+
+write a progeam to reverse each word in the sentance using pointers'
+
+semaphore where we used and how multi threads worked
+
