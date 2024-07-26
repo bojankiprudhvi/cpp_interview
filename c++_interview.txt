@@ -212,3 +212,54 @@ write a progeam to reverse each word in the sentance using pointers'
 
 semaphore where we used and how multi threads worked
 
+
+
+rajesh
+boost optinal,bymap,lambda function
+
+
+
+global logic
+
+intrruction
+c vs cpp
+cpp 17 major upgradation
+what is pointer
+differnce between malloc and calloc
+differnce between smart and nrml pointers
+what happens when we have same variable defined as staic in two differt files
+what happes if you assign val of ptr1 to ptr2 and free ptr2
+what is funtion pointer
+write the use case of function pointer
+volatile  keyword and real time senario
+volatile and const can be used at same time?
+given int a[4]={1,2,3,4}
+what is the output of
+&a[0],a[0],a[0]++,&a[0]++,a++,&a++
+coading question find the lenght of the longest substring with induvidual characters
+differnce between virtual and override keyword
+
+
+
+
+nokia
+intruduction 2min only
+type of constructor
+implemtn them 
+memory wise question on copy constructor
+deep copy constructor
+lambda function creation 
+function pointers
+what is Encapsulation
+polimorpishm 
+abstraction
+operator overloading 
+function overloading
+fucntion overloading vs overriding - which is better and why
+upordered map vs map
+arrray ,unordered map,map which is better and why
+list vs array
+
+
+given two unsorted linked list create a single  sorted linked list
+
