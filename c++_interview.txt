@@ -259,7 +259,110 @@ fucntion overloading vs overriding - which is better and why
 upordered map vs map
 arrray ,unordered map,map which is better and why
 list vs array
-
+differnce betweeen strcpy and  strncpy
 
 given two unsorted linked list create a single  sorted linked list
+
+
+rajesh company (openmyndz)
+intruduction
+virtual destructor
+write a pure virtual classs
+write a program to allocate a buffer[x][y] Dynamically
+how do you find the end of the memeory that we allocated 
+malloc and calloc
+
+
+mangeral question
+why are moving
+what are you expectign in terms of work
+what domain you worked
+what the main agenda of you project
+
+
+
+global logic
+
+differnce between malloc and new
+why new
+difference between 2 types of map
+cross compilation 
+differnce between mutex and binary semaphore
+templets in c++
+can you implements a template for any stl type
+in which part of the memry the class object will be stored
+Crosscompiling 
+stages of compilation
+
+round 2 
+find the second larget number in a given array
+remove the node in the single linked list when the node address is given direcly(constrants all elements are unique and node  to be deleted is not last one)
+what is static
+
+while (q=1); what happens
+
+find whetehr there is a cycle in the given linked list 
+
+pritn all the combiantions for the given array of characters
+
+virtual destructor
+what are virtual functions
+
+
+
+unitmatix
+introduction
+difference b/w c and c++
+what are all oops concepts
+in multiple Inheritance if both class A and class B have same variable  how to access the specific function from Class A in derived class
+program to find sum of numbers in a given string 
+print "Hello" with quitation
+find the error in the code (related to comment and \")
+testing related 
+what are testing you used
+diffence b/w white and black box testing
+
+
+round 2
+int v{5};
+const int* ptr {&v};
+int* const ptr2 {&v};
+can we use stl in C
+given a array sort the array and find the indexs of given elements (linear v/s binary (time complexilty))
+stl
+map 
+vector
+why vector
+why map
+list v/.s vector
+linked list insertion in all 3 cases (begin,end,pos)
+desing pattern
+singleton
+factory
+adapter
+random applitude quesdtion
+
+
+l&t (amd client)
+basic project questions 
+allocat ememory using new key word for an array of 100 blocks
+move the pointer to 50 blocks forward 
+call delete pointer 
+what it will happen 
+how the delete will know how many blocks to delete 
+write a program to merge two sorted liked list into single sorted linked list with out extra space
+                                                                                            
+
+inccedo
+final round
+project internal questions
+differnce between shallow copy and deep copy
+implent the copy constructor and assignment operator
+threads
+and impement two threads to print even and odd numbers and sync them properly(used semaphore )
+why not mutex instead of semaphore
+pointers vs refernces
+refernces used in your projext
+virtual funtions and run time polymorphisam
+
 
