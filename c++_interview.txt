@@ -366,3 +366,40 @@ refernces used in your projext
 virtual funtions and run time polymorphisam
 
 
+
+
+
+
+
+second trail 28 aug 2025
+
+
+ibm
+how can we call the base class virtaul function after overring it in derived class
+size of obj
+what is the size of obj when you have virtaul function in the calls and why
+write a templete
+how will you debug a large code segfault -->using macors and gdb
+vitual and pure vitual
+types of constructor
+order of constructor calling a destrucotr calling
+will the constructorcalling order chnages in different inhertance
+type of inhertance and write the multiple inhertance
+do we have vitual constructor
+implent copy constor7\
+when do you get segfault
+what stl you workded on and which c++ version
+print all unidue values in a vecotr=> set i sold and implemented
+find the count of each intereger in a vector using stl
+how do you write your own verctor
+yocoto why and what
+what part of linux system call you worked and why
+#include <iostream>
+int main()
+{
+ int *ptr =nullptr;
+ std::cout<<*ptr;
+    return 0;
+}
+
+
